@@ -1,7 +1,7 @@
-import { ReactComponent as Logo } from './img/logo-netflix.svg';
+
 import './App.css';
-import Header from "./components/Header";
-{/* <Logo className="NetflixLogo" /> */}
+import Header from "./components/header/Header";
+{/*  */}
 function App() {
   return (
 

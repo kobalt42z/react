@@ -1,0 +1,63 @@
+
+
+@media only screen and (max-width: 700px) {
+    .Netflix-Logo-phone {
+        width:100px;
+        height: 60px;
+        fill: red !important;
+        margin-left: 1vh;
+        margin-top: 1vh;
+    }
+}
+
+.Netflix-logo{
+    fill:red;
+    width: 150px;
+    height: 60px;
+    margin-left: 3vh;
+    margin-top: 2vh;
+}
+
+.custom-lang-select{
+    /* background: rgb(255, 255, 255); */
+    height: 37px;
+    color: #ffff;
+    border-color: rgb(46, 46, 46);
+    
+
+}
+.custom-lang-select option{
+    color: #ffff;
+    background-color: rgb(63, 63, 63);
+}
+.right-navbar button{
+    background-color:red ; 
+    border-radius: 5%;
+    height: 35px;
+}
+header{
+    background-image: url(./bg-main.jpg);
+}
+
+.main-header{
+    height: 65vh;
+    
+   
+}
+.main-header h1{
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: bolde;
+}
+.dark-alpha{
+    background-color: rgba(0, 0, 0, 0.503);
+}
+
+.main-header button {
+    background-color: red;
+    width: 400px;
+   height: 70px;
+   border-radius: 2%;
+   font-size: 27px;
+   font-weight: 400;
+}

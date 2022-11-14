@@ -17,11 +17,7 @@
 .App-header {
   background-color: #000000;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
   color: white;
 }
 
@@ -41,6 +37,6 @@
 
 .NetflixLogo{
   width: 200px;
-  height: 200px;
+  height: 50px;
   fill: red !important;
 }
