@@ -1,24 +1,26 @@
-.textright h1{
-    font-size: 50px;
-    line-height: 60px;
+.textright h1 {
+    font-size: 45px;
+    line-height: px;
     font-weight: bold;
 }
 
-.phoneImage{
+.phoneImage {
     width: 90vh;
 
 }
-.img1 img{
+
+.img1 img {
     width: 52px;
     height: 80px;
 }
-.boxshot-load{
+
+.boxshot-load {
     background: url(./load-icon.gif )50% no-repeat;
-    width:80px;
-    height:100px ;
-    
-  
-    
+    width: 80px;
+    height: 100px;
+
+
+
 }
 
 /* ! responsiv problem 
@@ -30,10 +32,19 @@
     /* top: -105px; */
     /* left: 50px */
     z-index: 10;
-    position: relative ;
-    
-    border-top: 60px ;
+    position: relative;
+
+    border-top: 60px;
     border-bottom: 15px;
     bottom: 100px;
 }
 
+.img-box {
+    background: url(./image.jpg ) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    
+    /* width: 500px;*/
+    height: 400px; 
+}

@@ -4,25 +4,11 @@ import Boxshot from './boxshot.png'
 import './block2.css'
 function block2() {
     return (
-        <div className='container-fluid '>
-            <div className="row justify-content-between">
-                <div className="phoneImage col-6 pt-5 mb-2 ">
-                    <img className='col-8  ms-5 ps-5 ' src={PhoneImage} alt={"backgroundPhone"} />
-                    <div className="animationBlock row col-12">
-                        <div className="boxshot-block d-flex  justify-content-center">
-                            <div className="img1">
-                                <img src={Boxshot} alt="" className='' />
-                            </div>
-                            <div className="boxShotText col-3 bg-black">
-                                <h5 className='boxShot-upper fs-5 mt-3'>Stranger Things</h5>
-                                <h5 className='boxShot-down fs-6 text-primary text-start ms-4'>Downloading...</h5>
+        <div className='container-fluid mb-5 '>
+            <div className="row justify-content-center">
+               <div className="ms-3 col-12  col-lg-5 col-xl-5 img-box "></div>
 
-                            </div>
-                            <div className="boxshot-load "></div>
-                        </div>
-                    </div>
-                </div>
-                <div className="textright col-6 pt-5 mt-5 d-flex align-items-center ">
+                <div className="textright col-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center ">
                     <div className="col-8 d-flex flex-column justify-content-center text-start">
                         <h1 className='pb-3'>Download your shows to watch offline.</h1>
                         <h4>Save your favorites easily and always have something to watch.</h4>
@@ -30,6 +16,7 @@ function block2() {
                 </div>
 
             </div>
+            <hr class="border border-white border-5 opacity-75"/>
         </div>
     )
 }
