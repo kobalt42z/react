@@ -1,12 +1,22 @@
 import React from 'react'
 import PhoneImage from './image.jpg'
 import Boxshot from './boxshot.png'
+import animation from './load-icon.gif'
 import './block2.css'
 function block2() {
     return (
-        <div className='container-fluid mb-5 '>
+        <div className='container-fluid my-5 '>
             <div className="row justify-content-center">
-               <div className="ms-3 col-12  col-lg-5 col-xl-5 img-box "></div>
+               <div className="ms-3 col-12  col-lg-5 col-xl-5 img-box d-flex align-items-end justify-content-center pb-5 ">
+                <div className="animation-block d-flex align-items-center px-1">
+                    <img src={Boxshot} alt="stranger things mini img" />
+                    <div className="text-block-animation text-start ms-2">
+                        <h5 className='text-light'> Stranger Things</h5>
+                        <h6 className='text-primary'>Downloading...</h6>
+                    </div>
+                    <img src={animation} alt="" />
+                </div>
+               </div>
 
                 <div className="textright col-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center ">
                     <div className="col-8 d-flex flex-column justify-content-center text-start">

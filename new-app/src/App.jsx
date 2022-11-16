@@ -10,7 +10,7 @@ function App() {
       <div className="App-header">
         <Header/>
         <Block2/>
-        <Block4/>
+        {/* <Block4/>/ */}
       </div>
     </div>
   );
