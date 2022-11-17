@@ -13,7 +13,7 @@ function block2() {
                 animation-block d-flex align-items-center justify-content-between p-2">
                     <img src={Boxshot} alt="stranger things mini img" />
                     <div className="text-block-animation text-start ms-2">
-                        <h5 className='text-light'> Stranger Things</h5>
+                        <h5 className='h5'> Stranger Things</h5>
                         <h6 className='text-primary'>Downloading...</h6>
                     </div>
                     <img src={animation} alt="" />
