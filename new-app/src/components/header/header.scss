@@ -1,0 +1,75 @@
+header {
+    background-image: url(./bg-main.jpg);
+    position: relative;
+    z-index: 1;
+}
+
+// *min size
+.netflix-logo {
+    width: 100%;
+
+}
+
+.sign-in-btn {
+    background: red;
+    width: 20%;
+    border-radius: 5%;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .netflix-logo {
+        width: 38%;
+
+    }
+
+    .sign-in-btn {
+        background: red;
+        width: 10%;
+        border-radius: 5%;
+        height: 30px;
+        padding: 0;
+        text-align: center;
+        color: white;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .netflix-logo {
+        width: 25%;
+
+    }
+}
+
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .netflix-logo {
+        width: 20%;
+
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}
+
+.dark-alpha{
+    background: rgba(0, 0, 0, 0.658);
+}
+
+.text-block{
+    h1{
+    
+    }
+}
+
+// !text-block responsiv to all bloks
+// !phon img responsiv phone version too big

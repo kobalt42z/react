@@ -1,0 +1,66 @@
+.accordion {
+  --bs-accordion-color: white;
+  --bs-accordion-bg: var(--bs-dark);
+  --bs-accordion-btn-color: dark;
+  --bs-accordion-active-color: white;
+  --bs-accordion-active-bg: rgb(79, 78, 78);
+  --bs-accordion-btn-icon: url(./plus.svg);
+  --bs-accordion-btn-active-icon: url(./xmark.svg);
+  /* --bs-accordion-btn-icon-width:5px; */
+  --bs-accordion-border-color: null;
+}
+
+.block4-title {
+  font-size: 50px !important;
+  /* font-weight: bold; */
+}
+
+.get-started-bar button {
+  background-color: red;
+  color: #fff;
+  width: 47%;
+  height: 40px;
+  border-radius: 2%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  .get-started-bar button {
+    background-color: red;
+    color: #fff;
+    width: 35%;
+    height: 65px;
+    border-radius: 2%;
+    font-size: 27px;
+    font-weight: 600;
+  }
+}
+.get-started-bar {
+  width: 90%;
+}
+
+@media (min-width: 992px) {
+  .get-started-bar {
+    width: 80%;
+  }
+  .get-started-bar button {
+    background-color: red;
+    color: #fff;
+    width: 40%;
+    height: 65px;
+    border-radius: 2%;
+    font-size: 27px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1200px) {
+  .get-started-bar {
+    width: 75%;
+  }
+}
+@media (min-width: 1400px) {
+  .get-started-bar {
+    width: 55%;
+  }
+}/*# sourceMappingURL=block4.css.map */

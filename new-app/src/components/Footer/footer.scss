@@ -1,0 +1,86 @@
+footer {
+    li {
+        margin-bottom: 10px;
+
+    }
+
+    a {
+        color: gray;
+    }
+
+
+
+
+
+
+}
+
+// * min size
+.lang-select {
+    background: rgba(128, 128, 128, 0.045);
+    color: white;
+    width: 40%;
+    border-radius: 2%;
+    height:30px ;
+
+
+    option{
+        background-color: gray;
+        color: white;
+    }
+}
+
+
+@media (min-width: 576px) {
+
+    .lang-select {
+        background: rgba(128, 128, 128, 0.045);
+        color: white;
+        width: 30%;
+        border-radius: 2%;
+        height:30px ;
+
+
+        option{
+            background-color: gray;
+            color: white;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+    .lang-select {
+        background: rgba(128, 128, 128, 0.045);
+        color: white;
+        width: 20%;
+        border-radius: 2%;
+        height:30px ;
+
+
+        option{
+            background-color: gray;
+            color: white;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1024px) {
+    .lang-select {
+        background: rgba(128, 128, 128, 0.045);
+        color: white;
+        width: 10%;
+        border-radius: 2%;
+        height:30px ;
+
+
+        option{
+            background-color: gray;
+            color: white;
+        }
+    }
+
+    
+}

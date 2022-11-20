@@ -1,0 +1,100 @@
+
+
+.accordion {
+    --bs-accordion-color: white;
+    --bs-accordion-bg: var(--bs-dark);
+    --bs-accordion-btn-color: dark;
+    --bs-accordion-active-color: white;
+    --bs-accordion-active-bg: rgb(79, 78, 78);
+    --bs-accordion-btn-icon: url(./plus.svg);
+    --bs-accordion-btn-active-icon: url(./xmark.svg);
+    /* --bs-accordion-btn-icon-width:5px; */
+    --bs-accordion-border-color: null;
+
+
+}
+
+.block4-title {
+    font-size: 50px !important;
+    /* font-weight: bold; */
+}
+
+
+
+// ! get started bar
+
+// ? vars
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+// * min size
+.get-started-bar {
+
+    button {
+        background-color: red;
+        color: #fff;
+        width: 47%;
+        height: 40px;
+        border-radius: 2%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 576px) {
+    .get-started-bar {
+
+        button {
+            background-color: red;
+            color: #fff;
+            width: 35%;
+            height: 65px;
+            border-radius: 2%;
+            font-size: 27px;
+            font-weight: 600;
+        }
+    }
+ 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+.get-started-bar {
+    width: 90%;
+    }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .get-started-bar {
+        width: 80%;
+
+        button {
+            background-color: red;
+            color: #fff;
+            width: 40%;
+            height: 65px;
+            border-radius: 2%;
+            font-size: 27px;
+            font-weight: 600;
+        }
+    }
+}
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .get-started-bar {
+    width: 75%;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .get-started-bar {
+        width: 55%;
+        }
+}
