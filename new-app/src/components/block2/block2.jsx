@@ -6,11 +6,11 @@ import './block2.css'
 function block2() {
     return (
         <div className=' my-5 '>
-            <div className="row justify-content-center mx-0">
-               <div className="   col-lg-5 col-xl-5 img-box d-flex align-items-end  justify-content-center pb-5 ">
+            <div className="row justify-content-end mx-0 py-5">
+               <div className="   col-lg-5 col-xl-5 img-box d-flex align-items-end  justify-content-center pb- ">
                 <div className=" 
                 w-50
-                animation-block d-flex align-items-center justify-content-between p-2">
+                animation-block d-flex align-items-center justify-content-evenly ">
                     <img src={Boxshot} alt="stranger things mini img" />
                     <div className="text-block-animation text-start ms-2">
                         <h5 className='h5'> Stranger Things</h5>
@@ -20,7 +20,7 @@ function block2() {
                 </div>
                </div>
 
-                <div className="textright col-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center ">
+                <div className="textright col-12 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-start ">
                     <div className="col-8 d-flex flex-column justify-content-center text-start">
                         <h1 className='pb-3'>Download your shows to watch offline.</h1>
                         <h4>Save your favorites easily and always have something to watch.</h4>
@@ -28,7 +28,7 @@ function block2() {
                 </div>
 
             </div>
-            <hr class="border border-white border-5 opacity-75"/>
+            
         </div>
     )
 }

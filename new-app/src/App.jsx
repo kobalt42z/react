@@ -10,9 +10,13 @@ function App() {
     <div className="App ">
       <div className="App-header">
         <Header/>
-        <Block2/>
-        <Block3/>
+        <hr class="mt-0 border border-white border-5 opacity-75"/>
         <Block1/>
+        <hr class="border border-white border-5 opacity-75"/>
+        <Block2/>
+        <hr class="border border-white border-5 opacity-75"/>
+        <Block3/>
+        
       </div>
     </div>
   );

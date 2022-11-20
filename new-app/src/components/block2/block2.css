@@ -47,13 +47,15 @@
     padding-left: 0px;
     
     /* width: 500px;*/
-    height: 400px; 
+    height: 350px; 
 }
 
 .animation-block{
     /* width: 270px; */
-    height: 90px;
+    height: 100px;
     background-color:rgb(0, 0, 0);
+    border:solid gray 2px ;
+    border-radius: 10px;
 }
 
 

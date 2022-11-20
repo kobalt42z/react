@@ -41,6 +41,8 @@
 
 header {
     background-image: url(./bg-main.jpg);
+    position: relative;
+    z-index: 1;
 }
 
 .main-header {
@@ -143,7 +145,7 @@ header {
 }
 
 .main-header input {
-    background-color: rgb(41, 39, 39) !important;
+    background-color: rgb(255, 255, 255) !important;
     border-color: black;
     color: #ffff !important;
 }

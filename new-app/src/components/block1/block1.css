@@ -1,3 +1,7 @@
 .tv-background{
-    background: url(./tv.png) no-repeat;
+    z-index: 0;
+}
+
+.textright{
+    z-index: 1;
 }
