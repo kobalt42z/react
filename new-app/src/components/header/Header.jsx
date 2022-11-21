@@ -35,21 +35,23 @@ function Header() {
 
 
 
-          <div className="row text-block" >
+          <div className="row  justify-content-center " >
+<div className="col-md-8 col-lg-6 text-block">
+  
+<h1 className='mt-3'>Unlimited movies, TV shows ,and more.</h1>
 
-            <h1 className='mt-3'>Unlimited movies, TV shows ,and more.</h1>
-
-            <h2 className='my-3'>Watch anywhere. cancel anytime</h2>
-            {/* 
-            <button className='btn btn-dark mt-4'>Restart Your Memebership <i className="fa-solid fa-chevron-right"></i> </button> */}
-            <h4 className='mt-4' >Ready to watch?</h4>
-            <h4 className='mb-4'> Enter your email to create or restart your membership.</h4>
+<h2 className='my-3'>Watch anywhere. cancel anytime</h2>
+{/* 
+<button className='btn btn-dark mt-4'>Restart Your Memebership <i className="fa-solid fa-chevron-right"></i> </button> */}
+<h4 className='mt-4' >Ready to watch?</h4>
+<h4 className='mb-'> Enter your email to create or restart your membership.</h4>
+</div>
           </div>
 
 
           <div className="row justify-content-center">
             <div className="input-group
-                get-started-bar my-5">
+                get-started-bar my-3">
               <input type="text" className="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" />
               <button className="btn btn-outline-secondary" type="button" id="button-addon2">Get started <i className=" ps-2 fa-solid fa-chevron-right"></i></button>
             </div>

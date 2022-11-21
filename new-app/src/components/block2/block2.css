@@ -43,11 +43,14 @@
     background: url(./image.jpg ) ;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 
     /* padding-left: 0px; */
     
     /* width: 500px;*/
     height: 350px; 
+   
+
 }
 
 .animation-block{

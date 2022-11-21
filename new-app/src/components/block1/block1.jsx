@@ -8,11 +8,11 @@ function Block1() {
   return (
     <div className="container-fluid my-5 position">
       <div className="row block1 justify-content-center">
-      <div className="textright col-12 col- col-lg-6 col-xl-5 col-xxl-5 d-flex justify-content-center position-relative py-5">
+      <div className=" col-12 col- col-lg-6 col-xl-5 col-xxl-5 d-flex justify-content-center position-relative py-5">
                     <div className=" d-flex flex-column justify-content-center
-                    align-items-end text-center">
+                    align-items-center text-center text-block">
                         <h1 className='pb-3'>Enjoy on your TV.</h1>
-                        <h4>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h4>
+                        <h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
                     </div>
                 </div>
         <div className="col-12 col-md-6 col-lg-6 d-flex justify-content-center ">

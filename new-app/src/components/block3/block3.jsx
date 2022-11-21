@@ -8,7 +8,7 @@ function block4() {
         <div className="leftside col-12 col-lg-6">
           <img className=' img-fluid' src={Leftside} alt={"PhotoOfLeftSide"} />
         </div>
-        <div className='rightside col-12 d-flex flex-column justify-content-center col-lg-6 '>
+        <div className='col-12 d-flex flex-column justify-content-center col-lg-6 text-block'>
         
             <h1>Create profiles for kids.</h1>
             <h4>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</h4>

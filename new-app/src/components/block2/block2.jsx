@@ -23,10 +23,10 @@ function block2() {
 
                 </div>
 
-                <div className="textright col-12 col-md-10 col-lg-5 col-xl-5 col-xxl-5 d-flex justify-content-center ">
-                    <div className=" d-flex flex-column justify-content-center text-center">
+                <div className="col-12 col-md-10 col-lg-5 col-xl-5 col-xxl-5 d-flex justify-content-center ">
+                    <div className=" d-flex flex-column justify-content-center text-center text-block">
                         <h1 className='pb-3'>Download your shows to watch offline.</h1>
-                        <h4>Save your favorites easily and always have something to watch.</h4>
+                        <h2>Save your favorites easily and always have something to watch.</h2>
                     </div>
                 </div>
 

@@ -5,7 +5,7 @@ function Block4() {
     return (
         <div className="container">
             <div className="row justify-content-center">
-                <h1 className=" block4-title my-5">Frequently Asked Questions</h1>
+                <h1 className="  block4-title my-5">Frequently Asked Questions</h1>
 
                 <div className="col-12 col-md-8 my-5 ">
                     <div className="accordion accordion-flush " id="accordionFlushExample ">
