@@ -9,7 +9,7 @@ function FillCard() {
 
     async function getCurrency() {
         try {
-          const URL_ = 'http://fs1.co.il/bus/bitcoin.pssp';
+          const URL_ = 'http://fs1.co.il/bus/bitcoin.psp';
           
           let {data} = await axios(URL_);
           console.log(data);
