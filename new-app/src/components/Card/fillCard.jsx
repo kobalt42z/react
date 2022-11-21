@@ -3,14 +3,15 @@ import Card from './card';
 import axios from "axios";
 import { useEffect } from 'react';
 import { useState } from 'react';
-
+import coinsJson from './coins.json'
 function FillCard() {
     const [coins,setCoins] = useState([]);
 
     async function getCurrency() {
         try {
-          const URL_ = 'http://fs1.co.il/bus/bitcoin.php';
-          let {data} = await axios.get(URL_);
+          const URL_ = 'http://fs1.co.il/bus/bitcoin.pssp';
+          
+          let {data} = await axios(URL_);
           console.log(data);
            setCoins(data);
             
@@ -18,6 +19,8 @@ function FillCard() {
           
         } catch (error) {
           console.log(error);
+          setCoins(coinsJson)
+        //  ! cuz http to https conflict 
         } 
       }
       useEffect(() => {
